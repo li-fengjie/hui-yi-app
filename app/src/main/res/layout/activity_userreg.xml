@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <android.support.constraint.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="81dp">
+
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账号:"
+            android:layout_marginLeft="0dp"
+            app:layout_constraintLeft_toLeftOf="@+id/et_uid"
+            android:layout_marginBottom="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/et_uid" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码:"
+            android:layout_marginLeft="0dp"
+            app:layout_constraintLeft_toLeftOf="@+id/et_upwd1"
+            android:layout_marginBottom="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/et_upwd1" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="0dp"
+            android:elevation="0dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:text="再次输入:"
+            app:layout_constraintBottom_toTopOf="@+id/et_admpwd2"
+            app:layout_constraintLeft_toLeftOf="@+id/et_admpwd2" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名:"
+            android:layout_marginLeft="0dp"
+            app:layout_constraintLeft_toLeftOf="@+id/et_uname"
+            android:layout_marginBottom="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/et_uname" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="0dp"
+            android:text="企业名称:"
+            app:layout_constraintBottom_toTopOf="@+id/et_ucompany"
+            app:layout_constraintLeft_toLeftOf="@+id/et_ucompany" />
+
+        <EditText
+            android:id="@+id/et_uid"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/et_edittext_bg"
+            android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:drawableLeft="@mipmap/ic_user"
+            android:ems="10"
+            android:hint="请输入登陆账号"
+            android:maxLines="1"
+            android:paddingLeft="8dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_constraintBaseline_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1" />
+
+        <EditText
+            android:id="@+id/et_upwd1"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/et_edittext_bg"
+            android:drawableLeft="@mipmap/ic_locked"
+            android:hint="请输入密码"
+            android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:ems="10"
+            android:inputType="textPassword|textWebPassword"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_uid" />
+
+        <EditText
+            android:id="@+id/et_admpwd2"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/et_edittext_bg"
+            android:drawableLeft="@mipmap/ic_locked"
+            android:hint="请再次输入密码"
+            android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:ems="10"
+            android:inputType="textPassword|textWebPassword"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_upwd1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintTop_creator="1" />
+
+        <EditText
+            android:id="@+id/et_ucompany"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/et_edittext_bg"
+            android:drawableLeft="@mipmap/ic_company"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="请输入所在企业名称"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_admpwd2"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintTop_creator="1" />
+
+        <EditText
+            android:id="@+id/et_uname"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="25dp"
+            android:drawableLeft="@mipmap/ic_name"
+            android:background="@drawable/et_edittext_bg"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="请输入姓名"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_ucompany"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintTop_creator="1" />
+
+        <Button
+            android:id="@+id/btn_userreg"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_selector"
+            android:text="注   册"
+            android:textSize="21sp"
+            android:textColor="#DAA520"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_fingerprint"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/tv_fingerprint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:text="点击添加指纹"
+            android:textColor="@color/colorAccent"
+            android:textSize="10sp"
+            app:layout_constraintHorizontal_bias="0.538"
+            app:layout_constraintLeft_toLeftOf="@+id/addFingerprint"
+            app:layout_constraintRight_toRightOf="@+id/addFingerprint"
+            app:layout_constraintTop_toBottomOf="@+id/addFingerprint" />
+
+        <ImageView
+            android:id="@+id/addFingerprint"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@mipmap/ic_fp_40px"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_uphone"
+            app:layout_constraintHorizontal_bias="0.501" />
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/addFace"-->
+            <!--android:layout_width="63dp"-->
+            <!--android:layout_height="64dp"-->
+            <!--app:srcCompat="@drawable/btn_face"-->
+            <!--app:layout_constraintBottom_toBottomOf="@+id/btn_userreg"-->
+            <!--android:layout_marginBottom="79dp"-->
+            <!--app:layout_constraintLeft_toRightOf="@+id/addFingerprint"-->
+            <!--android:layout_marginLeft="114dp"-->
+            <!--android:layout_marginRight="8dp"-->
+            <!--app:layout_constraintRight_toRightOf="parent"-->
+            <!--app:layout_constraintHorizontal_bias="0.0"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/et_uphone"-->
+            <!--app:layout_constraintVertical_bias="1.0" />-->
+
+        <EditText
+            android:id="@+id/et_uphone"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="25dp"
+            android:drawableLeft="@mipmap/ic_phone"
+            android:background="@drawable/et_edittext_bg"
+            android:hint="请输入手机号"
+            android:ems="10"
+            android:inputType="number"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_uname" />
+
+        <TextView
+            android:id="@+id/tv_uphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机:"
+            android:layout_marginLeft="0dp"
+            app:layout_constraintLeft_toLeftOf="@+id/et_uphone"
+            android:layout_marginBottom="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/et_uphone" />
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

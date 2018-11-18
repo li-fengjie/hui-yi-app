@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xyz.hui_yi.layout.EmptyLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/emptyLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingRight="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="8dp" />
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/tab1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <xyz.hui_yi.view.MyListView
+                            android:id="@+id/lv_notok"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:listSelector="@color/transparent"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                        </xyz.hui_yi.view.MyListView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/tab2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <xyz.hui_yi.view.MyListView
+                            android:id="@+id/lv_isok"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginBottom="20dp"
+                            android:listSelector="@color/transparent"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                        </xyz.hui_yi.view.MyListView>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </TabHost>
+</xyz.hui_yi.layout.EmptyLayout>

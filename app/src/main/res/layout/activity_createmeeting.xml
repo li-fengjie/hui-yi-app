@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#1000"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:background="#1000"
+        android:paddingBottom="10dp"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/ll_mimage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#f7f8f9">
+
+            <ImageView
+                android:id="@+id/iv_mimage"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/iv_photo"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_photo" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="8dp"
+            android:background="#FFF"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:text="标题:"
+                android:textSize="21sp" />
+
+            <EditText
+                android:id="@+id/et_mtitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:background="@null"
+                android:clickable="true"
+                android:ellipsize="end"
+                android:hint="在这里输入会议标题"
+                android:maxLines="1"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="2dp"
+            android:background="#FFF"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:text="地点:"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/et_maddress"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:clickable="true"
+                android:ellipsize="end"
+                android:hint="在这里输入会议地点"
+                android:maxLines="1"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/tv_startdat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp">
+
+                <ImageView
+                    android:id="@+id/iv_starttime"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="9dp"
+                    android:src="@drawable/ic_time" />
+
+                <ImageView
+                    android:id="@+id/iv_startdate"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="11dp"
+                    android:layout_toStartOf="@+id/iv_starttime"
+                    app:srcCompat="@drawable/ic_date" />
+
+                <TextView
+                    android:id="@+id/tv_startdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="16dp"
+                    android:textColor="@color/colorDark"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_starttime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="12dp"
+                    android:layout_toEndOf="@+id/tv_startdate"
+                    android:textColor="@color/colorDark"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/iv_startdate"
+                    android:layout_marginRight="4dp"
+                    android:layout_toStartOf="@+id/iv_startdate"
+                    android:text="开始时间"
+                    android:textSize="9sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="290dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="2dp"
+                    android:background="#FFF"
+                    android:orientation="horizontal"
+                    android:padding="4dp">
+
+                    <EditText
+                        android:id="@+id/et_mcontent"
+                        android:layout_width="0dp"
+                        android:layout_height="270dp"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginRight="@dimen/dp_8"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:clickable="true"
+                        android:gravity="top"
+                        android:hint="在这里输入正文"
+                        android:inputType="textMultiLine"
+                        android:maxLines="800"
+                        android:minLines="10"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:scrollbars="vertical"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/iv_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:clickable="true"
+                    android:onClick="click"
+                    android:src="@mipmap/ic_equip" />
+
+                <TextView
+                    android:id="@+id/tv_wifi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="添加会议设备"
+                    android:layout_alignBottom="@+id/iv_enddate"
+                    android:layout_toEndOf="@+id/iv_add" />
+
+                <TextView
+                    android:id="@+id/tv_enddate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="19dp"
+                    android:textColor="@color/colorDark"
+                    android:textSize="12sp"
+                    android:layout_alignBaseline="@+id/tv_endtime"
+                    android:layout_alignBottom="@+id/tv_endtime"
+                    android:layout_toEndOf="@+id/tv_wifi" />
+
+                <TextView
+                    android:id="@+id/tv_endtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@+id/tv_enddate"
+                    android:textColor="@color/colorDark"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/iv_endtime"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginEnd="9dp"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/ic_time" />
+
+                <ImageView
+                    android:id="@+id/iv_enddate"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_alignTop="@+id/iv_endtime"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginEnd="13dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_toStartOf="@+id/iv_endtime"
+                    android:src="@drawable/ic_date" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="0dp"
+                    android:layout_toStartOf="@+id/iv_enddate"
+                    android:text="结束时间"
+                    android:textSize="9sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

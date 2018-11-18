@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="xyz.hui_yi.activity.MainActivity">
+    <item
+        android:id="@+id/action_face"
+        android:orderInCategory="100"
+        android:title="扫描人脸"
+        android:icon="@mipmap/ic_face_white"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:title="刷新"
+        android:icon="@mipmap/refresh"
+        app:showAsAction="ifRoom"/>
+</menu>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="70dp">
+
+    <xyz.hui_yi.view.CircleImageView
+        android:id="@+id/iv_uphoto"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        app:srcCompat="@drawable/image_uphoto_example" />
+
+    <TextView
+        android:id="@+id/tv_notokname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_uphoto"
+        android:layout_marginLeft="8dp"
+        android:layout_toEndOf="@+id/iv_uphoto"
+        android:layout_toRightOf="@+id/iv_uphoto"
+        android:text="姓名"
+        android:textColor="@color/colorDark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_isoktime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="签到时间"
+        android:textSize="12sp"
+        android:layout_alignTop="@+id/tv_notokname"
+        android:layout_alignRight="@+id/iv_type"
+        android:layout_alignEnd="@+id/iv_type"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp" />
+
+    <TextView
+        android:id="@+id/tv_isokdistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_notokname"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/tv_notokname"
+        android:layout_marginBottom="4dp"
+        android:text="大概距离" />
+
+    <ImageView
+        android:id="@+id/iv_type"
+        android:layout_marginRight="18dp"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
+        app:srcCompat="@mipmap/ic_fingerprint_black_36dp"
+        android:layout_marginEnd="18dp"
+        android:layout_below="@+id/tv_notokname"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

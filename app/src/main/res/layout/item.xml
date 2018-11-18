@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_height="match_parent">
+
+    <xyz.hui_yi.utils.image.SmartImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="100dp"
+        android:layout_height="63dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/image_huiyi_example" />
+
+    <TextView
+        android:id="@+id/tv_mtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_icon"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/iv_icon"
+        android:layout_toRightOf="@+id/iv_icon"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="会议名"
+        android:textColor="#000000"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/tv_mtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="会议开始时间:"
+        android:textColor="@color/dimgray"
+        android:textSize="12sp"
+        android:layout_alignBottom="@+id/iv_icon"
+        android:layout_alignLeft="@+id/tv_mtitle"
+        android:layout_alignStart="@+id/tv_mtitle" />
+
+    <TextView
+        android:id="@+id/tv_maddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_icon"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="start"
+        android:maxLines="1"
+        android:textColor="@color/dimgray"
+        android:text="会议地点:"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_mid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:visibility="invisible"
+        android:layout_below="@+id/tv_mtitle"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

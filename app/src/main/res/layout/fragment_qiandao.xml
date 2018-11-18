@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xyz.hui_yi.layout.MySwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_ly"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <xyz.hui_yi.layout.EmptyLayout
+        android:id="@+id/emptyLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/qdlv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:listSelector="@color/transparent">
+
+        </ListView>
+
+    </xyz.hui_yi.layout.EmptyLayout>
+
+</xyz.hui_yi.layout.MySwipeRefreshLayout>

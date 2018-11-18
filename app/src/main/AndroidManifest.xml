@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="xyz.hui_yi">
+
+    <!--指纹权限-->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!--控制震动-->
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <!--<uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>-->
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 用摄像头拍照需要加权限 -->
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera.flash"/>
+    <!--TTS需要权限-->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:name="xyz.hui_yi.app.App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="xyz.hui_yi.activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.FullScreen"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="xyz.hui_yi.activity.GuideActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.FullScreen"
+            />
+
+        <activity
+            android:name="xyz.hui_yi.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity android:name="xyz.hui_yi.activity.UserLoginActivity"
+            android:screenOrientation="portrait"
+            >
+
+        </activity>
+
+        <activity android:name="xyz.hui_yi.activity.UserRegActivity"
+            android:label="用户注册"
+            android:screenOrientation="portrait"
+            android:parentActivityName="xyz.hui_yi.activity.UserLoginActivity"
+            >
+        </activity>
+        <activity android:name="xyz.hui_yi.activity.AdmLoginActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName="xyz.hui_yi.activity.UserLoginActivity"
+            android:label="管理员登陆">
+        </activity>
+        <activity android:name="xyz.hui_yi.activity.AdmRegActivity"
+            android:label="管理员注册"
+            android:screenOrientation="portrait"
+            android:parentActivityName="xyz.hui_yi.activity.AdmLoginActivity">
+        </activity>
+        <activity android:name="xyz.hui_yi.activity.CreateMeetingActivity"
+            android:label="创建会议"
+            android:parentActivityName="xyz.hui_yi.activity.MainActivity"
+            >
+
+        </activity>
+
+        <activity android:name="xyz.hui_yi.activity.FaceVerifyActivity"
+            android:label="人脸验证"
+            android:screenOrientation="portrait"
+            android:parentActivityName="xyz.hui_yi.activity.MainActivity">
+        </activity>
+        <activity android:name="xyz.hui_yi.activity.MeetingInforActivity"
+            android:label="会议信息"
+            android:screenOrientation="portrait"
+            android:parentActivityName="xyz.hui_yi.activity.MainActivity">
+            >
+        </activity>
+
+        <activity android:name="xyz.hui_yi.activity.HistoryMeetsActivity"
+            android:label="历史会议"
+            android:screenOrientation="portrait"
+            android:parentActivityName="xyz.hui_yi.activity.MainActivity"
+            >
+
+        </activity>
+        <activity android:name="xyz.hui_yi.activity.AdmDataManageActivity"
+            android:label="会议管理"
+            android:screenOrientation="portrait"
+            android:parentActivityName="xyz.hui_yi.activity.MainActivity">
+        </activity>
+
+        <activity android:name="xyz.hui_yi.activity.AdmUserInforActivity"
+            android:label="添加会议人员"
+            android:screenOrientation="portrait"
+            android:parentActivityName="xyz.hui_yi.activity.CreateMeetingActivity">
+
+        </activity>
+
+        <activity android:name="xyz.hui_yi.activity.SettingActivity"
+            android:label="系统设置"
+            android:screenOrientation="portrait"
+            android:parentActivityName="xyz.hui_yi.activity.MainActivity">
+            >
+        </activity>
+
+        <activity android:name="xyz.hui_yi.activity.AboutActivity"
+            android:label="关于我们"
+            android:screenOrientation="portrait"
+            android:parentActivityName="xyz.hui_yi.activity.MainActivity">
+            >
+        </activity>
+
+        <activity android:name="xyz.hui_yi.activity.FeedbackActivity"
+            android:label="意见反馈"
+            android:screenOrientation="portrait"
+            android:parentActivityName="xyz.hui_yi.activity.MainActivity">
+            >
+        </activity>
+
+        <activity android:name="xyz.hui_yi.activity.MyInforActivity"
+            android:label="我的信息"
+            android:screenOrientation="portrait"
+            android:parentActivityName="xyz.hui_yi.activity.MainActivity">
+        </activity>
+
+        <activity android:name="xyz.hui_yi.activity.FaceRegActivity"
+            android:label="人脸录入"
+            android:screenOrientation="portrait"
+            android:parentActivityName="xyz.hui_yi.activity.UserRegActivity">
+
+        </activity>
+        <activity android:name="xyz.hui_yi.activity.PeopleActivity"
+            android:label="人员信息"
+            android:screenOrientation="portrait"
+            android:parentActivityName="xyz.hui_yi.activity.MainActivity">
+        </activity>
+
+        <activity android:name="xyz.hui_yi.activity.PhotoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+        <!--添加自己的appkey和appid-->
+        <meta-data
+            android:name="eyekey_appid"
+            android:value="80413445322c40f99c80514395221c13"/>
+        <meta-data
+            android:name="eyekey_appkey"
+            android:value="960511025a55463aad5523beb56b30d7"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 顶部项卡背景颜色 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- 圆形 -->
+    <corners android:bottomRightRadius="10dp"
+        android:topRightRadius="10dp"/>
+    <stroke android:width="1dip" android:color="@color/colorPrimary" />
+    <!-- 填充 -->
+    <solid android:color="#00ffffff"/><!-- 填充的颜色 -->
+
+</shape>

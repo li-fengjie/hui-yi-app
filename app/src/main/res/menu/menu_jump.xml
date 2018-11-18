@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="xyz.hui_yi.activity.FaceRegActivity">
+    <item
+        android:id="@+id/action_jump"
+        android:orderInCategory="100"
+        android:title="跳过"
+        app:showAsAction="ifRoom"/>
+</menu>

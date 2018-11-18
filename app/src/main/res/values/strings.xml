@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">会易</string>
+    <string name="title_home">会议</string>
+    <string name="title_dashboard">签到</string>
+    <string name="title_notifications">我的</string>
+    <string name="title_adm">管理</string>
+
+    <!--我的-->
+    <string-array name="wodeitem1">
+        <item>个人信息</item>
+        <item>参会记录</item>
+    </string-array>
+
+    <string-array name="wodeitem2">
+        <item>使用指南</item>
+        <item>意见反馈</item>
+        <item>关于会易</item>
+        <item>版本更新</item>
+    </string-array>
+    <string-array name="wodeitem3">
+        <item>系统设置</item>
+    </string-array>
+    <string-array name="wodeitem4">
+        <item>小组成员</item>
+    </string-array>
+
+    <string-array name="settingitem">
+        <item>震动</item>
+        <item>声音</item>
+    </string-array>
+    <string name="about_us">\t\t会易是一款集会议发布、与会人员签到，签到人员管理于一身的软件，其利用人脸识别技术和生物指纹识别技术，对参与会议的人进行识别从而进行签到，采用无线测距限制签到人员位置，保证了数据的准确性。用户通过会易可以查看到自己应该参加的会议，在会场范围之内仅需自己的一部手机便可完成签到，无需排队等候。管理员可通过会易发会议内容并且能实时管理会场人员，实时查看到已签到和未签到的人员，可及时通知还未到场人员，大大提高了工作效率。
+   \n\t\t在以往的签到方式中，过程冗长，效率低下，签到设备成本过高，签到人员十分烦恼，现在通过会易，一部手机就可以快速完成签到。通过此软件签到，必须是本人在会场使用本人指纹或者刷脸才能完成签到，有效避免了代签和签完就离开会场的情况。
+</string>
+
+    <string-array name="myinforitem">
+        <item>录入人脸信息</item>
+        <item>退出登录</item>
+    </string-array>
+
+    <string name="fingerprint_normal_hint">再试一次</string>
+    <string name="fingerprint_hint_msg">请将手指放置在传感器上</string>
+    <!--<string name="app_open_fingerprint">指纹签到</string>-->
+    <!--auth key准备失败！-->
+    <string name="app_auth_key_prepare_failed">您的设备不支持指纹，可以使用扫脸方式</string>
+    <string name="app_loading_preparing_open_keys">正在准备密钥</string>
+    <string name="app_request_challenge">正在请求挑战因子</string>
+    <string name="app_verifying">正在认证</string>
+    <string name="app_cancel">取消</string>
+    <string name="text_add_fp_success">指纹录入成功</string>
+    <string name="text_add_face_success">人脸录入成功</string>
+    <string name="text_login_success">签到成功</string>
+    <string name="text_fp_login_failed">签到失败，请重试</string>
+    <string name="text_fp_login_failed_no"></string>
+    <string name="text_add_fp">点击添加指纹</string>
+    <string name="text_server_error">服务器忙，请稍后再试...</string>
+    <string name="toast_network_error">网络出错，请检查网络连接</string>
+    <string name="text_wrong_pwd">账号名或密码错误</string>
+    <string name="text_wrong_pcode">授权码错误</string>
+    <string name="text_no_code">授权码不得为空</string>
+    <string name="text_welcome_back">欢迎回来</string>
+    <string name="text_user_exist">用户已存在，不要重复注册</string>
+    <string name="toast_pwd_notsame">密码前后不一致</string>
+    <string name="text_info_not_empty">请检查信息是否填写完整</string>
+    <string name="text_no_face_fp">请检查信息是否录入指纹</string>
+    <string name="text_name_not_empty">账户名不能为空</string>
+    <string name="text_not_supported_soter">本设备不支持指纹方式</string>
+    <string name="text_not_soter_key">指纹授权密钥过期正在再生和上传</string>
+    <string name="text_request_locking">指纹传感器由于尝试次数过多而被锁定,请稍后再试</string>
+    <string name="text_system_not_fp">检测到您的系统中未录入指纹，请先开启指纹解锁功能</string>
+    <string name="text_login_fp">指纹登陆</string>
+    <string name="text_verify_failed">认证失败</string>
+    <string name="text_company_not_exist">注册的公司不存在，请检查公司名称</string>
+    <string name="text_test">检测中...</string>
+    <string name="text_enroll">注册中请稍后...</string>
+    <string name="toast_no_faceId">未检测到人脸</string>
+    <string name="toast_enroll_failed">人脸录入失败</string>
+    <string name="text_reg_success">注册成功</string>
+    <string name="text_login">正在登陆</string>
+    <string name="text_thumb">向右拖动滑块登陆</string>
+    <string name="empty_message">暂无会议</string>
+    <string name="loading_message">请等一等啦ლ(╹◡╹ლ)</string>
+    <string name="error_message">哎呀！网络错误，请检查网络连接</string>
+    <string name="empty_button">重试</string>
+    <string name="loading_button">取消</string>
+    <string name="error_button">重试</string>
+    <string name="text_open_rwifi">请开启热点后重试</string>
+    <string name="text_open_wifi">请打开wifi,并连接签到设备后重试</string>
+    <string name="text_not_support">本设备不支持该方式，请选用其他方式</string>
+    <string name="text_date">日期</string>
+    <string name="text_time">时间</string>
+    <string name="use_fp_login">使用指纹签到</string>
+    <string name="text_search_now">正在搜索管理员设备...</string>
+    <string name="toast_verify_no_id">认证失败</string>
+    <string name="text_user_unregister">人脸信息尚未录入,签到前请补全人脸信息</string>
+    <!--联网-->
+    <!--<string name="URL">http://123.207.120.57</string>-->
+    <string name="URL">https://huiyix.applinzi.com</string>
+
+</resources>

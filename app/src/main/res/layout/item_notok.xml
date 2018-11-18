@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="55dp">
+
+    <xyz.hui_yi.view.CircleImageView
+        android:id="@+id/iv_uphoto"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        app:srcCompat="@drawable/image_uphoto_example" />
+
+    <TextView
+        android:id="@+id/tv_notokname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:text="姓名"
+        android:textColor="@color/colorDark"
+        android:textSize="19sp"
+        android:layout_alignTop="@+id/iv_uphoto"
+        android:layout_toRightOf="@+id/iv_uphoto"
+        android:layout_toEndOf="@+id/iv_uphoto"
+        android:layout_marginStart="9dp" />
+
+    <TextView
+        android:id="@+id/tv_notokphone"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="tel:"
+        android:textSize="13sp"
+        android:layout_alignBottom="@+id/iv_uphoto"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/tv_uid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_notokname"
+        android:layout_alignTop="@+id/tv_notokphone"
+        android:text="uid" />
+</RelativeLayout>
