@@ -1,7 +1,8 @@
-# 会易APP
+# <img src="files\hui-yi-logo.jpg" width="80"/> 会易APP
 
 #### 介绍
 基于生物信息识别的会议签到系统（会易) —— 会易签到app v1.0.0
+
 [PPT演示](files/ppt.mp4)
 
     会易是一款集会议发布、与会人员签到，签到人员管理于一身的软件，其利用人脸识别技术和生物指纹识别技术，对参与会议的人进行识别从而进行签到，采用无线测距限制签到人员位置，保证了数据的准确性。用户通过会易可以查看到自己应该参加的会议，在会场范围之内仅需自己的一部手机便可完成签到，无需排队等候。管理员可通过会易发会议内容并且能实时管理会场人员，实时查看到已签到和未签到的人员，可及时通知还未到场的人，免于出现会议参与人不齐的状况，同时大大提高了工作效率。
@@ -15,7 +16,7 @@
 1.  会易APP项目 [会易APP](https://github.com/li-fengjie/hui-yi-app)
 <br/>[安装包下载](files/app_huiyi_release_v1.0_1_2018-03-09.apk)
 2.  会易签到微信小程序 [会易签到](https://github.com/li-fengjie/hui-yi-miniprogram)
-<br/><img src="files/code.png" width="500"/>
+<br/><img src="files/code.png" width="800"/>
 3.  会易项目后台 [会易](https://github.com/li-fengjie/hui-yi-miniprogram)
 
 #### 视频演示
@@ -36,14 +37,21 @@
 		10) Android 热点开发
 		11）Android zxing开发
 		12）手机微服务架构设计开发
+####  项目前端框架图
+
+![前端框架图](files\App前端框架图.png)
+
 #### 页面展示
 
 - [发布会议](files/发布会议.mp4)
+- [指纹签到](files/指纹签到.mp4)
+- [指纹签到](files/指纹签到.mp4)
 
-- [指纹签到](files/指纹签到.mp4)
-- [指纹签到](files/指纹签到.mp4)
+---
 
 <img src="files/l-1.png" width="180"/><img src="files/l-2.png" width="180"/><img src="files/l-4.png" width="180"/><img src="files/l-7.png" width="180"/>
+
+---
 
 
 
