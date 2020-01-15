@@ -75,7 +75,7 @@
 
 
 
-<<img src="files/Screenshot_2018-05-01-19-42-07-28.png" width="180"/><img src="files/Screenshot_2018-05-01-19-49-56-64.png" width="180"/><img src="files/Screenshot_2018-05-01-19-49-09-46.png" width="180"/>
+<img src="files/Screenshot_2018-05-01-19-42-07-28.png" width="180"/><img src="files/Screenshot_2018-05-01-19-49-56-64.png" width="180"/><img src="files/Screenshot_2018-05-01-19-49-09-46.png" width="180"/>
 
 
 
