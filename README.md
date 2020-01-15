@@ -43,7 +43,7 @@
 - [指纹签到](files/指纹签到.mp4)
 - [指纹签到](files/指纹签到.mp4)
 
-<img src="files/l-1.png" width="230"/><img src="files/l-2.png" width="230"/><img src="files/l-4.png" width="230"/><img src="files/l-7.png" width="230"/>
+<img src="files/l-1.png" width="180"/><img src="files/l-2.png" width="180"/><img src="files/l-4.png" width="180"/><img src="files/l-7.png" width="180"/>
 
 
 
