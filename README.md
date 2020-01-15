@@ -85,5 +85,7 @@
 - 排名![排名](files/排名.png)
 - ![易拉宝](files/易拉宝-App开发与设计-APP 1 组 8号-生物信息识别会议签到App-会易.jpg)
 
+####  新闻报道
+-  [发现杯](http://www.dajiangsai.org/static/previousreviews/first-prize.html#app)
 
 
