@@ -55,5 +55,35 @@
 
 
 
+<img src="files/Screenshot_2018-05-01-19-51-27-20.png" width="180"/><img src="files/Screenshot_2018-05-01-17-53-37-68.png" width="180"/><img src="files/Screenshot_2018-04-10-13-04-33-82.png" width="180"/><img src="files/Screenshot_2018-03-08-12-23-22-23.png" width="180"/>
+
+
+
+---
+
+<img src="files/Screenshot_2018-04-23-15-01-26-08.png" width="180"/><img src="files/Screenshot_2018-05-01-19-40-48-59.png" width="180"/><img src="files/Screenshot_2018-04-10-12-51-05-08.png" width="180"/><img src="files/Screenshot_2018-05-01-19-43-36-62.png" width="180"/>
+
+
+
+---
+
+
+
+<img src="files/Screenshot_2018-03-08-16-22-09-94.png" width="180"/><img src="files/Screenshot_2018-04-12-09-16-07-13.png" width="180"/><img src="files/Screenshot_2018-04-10-13-29-11-63.png" width="180"/>
+
+---
+
+
+
+<<img src="files/Screenshot_2018-05-01-19-42-07-28.png" width="180"/><img src="files/Screenshot_2018-05-01-19-49-56-64.png" width="180"/><img src="files/Screenshot_2018-05-01-19-49-09-46.png" width="180"/>
+
+
+
+####  第五届发现杯大赛
+
+- ![国家一等奖](/files/证书.jpg)
+- 排名![排名](files/排名.png)
+- ![易拉宝](files/易拉宝-App开发与设计-APP 1 组 8号-生物信息识别会议签到App-会易.jpg)
+
 
 
