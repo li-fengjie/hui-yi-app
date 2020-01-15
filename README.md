@@ -1,4 +1,4 @@
-# <img src="files\hui-yi-logo.jpg" width="80"/> 会易APP
+# <img src="files/hui-yi-logo.jpg" width="80"/> 会易APP
 
 #### 介绍
 基于生物信息识别的会议签到系统（会易) —— 会易签到app v1.0.0
