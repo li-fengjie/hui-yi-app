@@ -16,7 +16,7 @@
 1.  会易APP项目 [会易APP](https://github.com/li-fengjie/hui-yi-app)
 <br/>[安装包下载](files/app_huiyi_release_v1.0_1_2018-03-09.apk)
 2.  会易签到微信小程序 [会易签到](https://github.com/li-fengjie/hui-yi-miniprogram)
-<br/><img src="files/code.png" width="800"/>
+<br/><img src="code.png" width="800"/>
 3.  会易项目后台 [会易](https://github.com/li-fengjie/hui-yi-server)
 
 #### 视频演示
@@ -81,9 +81,9 @@
 
 ####  第五届发现杯大赛
 
-- ![国家一等奖](/files/证书.jpg)
+- ![国家一等奖](files/证书.jpg)
 - 排名![排名](files/排名.png)
-- ![易拉宝](files/易拉宝-App开发与设计-APP 1 组 8号-生物信息识别会议签到App-会易.jpg)
+- ![易拉宝](files/易拉宝-App开发与设计-APP1组8号-生物信息识别会议签到App-会易.jpg)
 
 ####  新闻报道
 -  [发现杯](http://www.dajiangsai.org/static/previousreviews/first-prize.html#app)
