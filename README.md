@@ -16,7 +16,7 @@
 1.  会易APP项目 [会易APP](https://github.com/li-fengjie/hui-yi-app)
 <br/>[安装包下载](files/app_huiyi_release_v1.0_1_2018-03-09.apk)
 2.  会易签到微信小程序 [会易签到](https://github.com/li-fengjie/hui-yi-miniprogram)
-<br/><img src="code.png" width="800"/>
+<br/><img src="files/code.png" width="800"/>
 3.  会易项目后台 [会易](https://github.com/li-fengjie/hui-yi-server)
 
 #### 视频演示
